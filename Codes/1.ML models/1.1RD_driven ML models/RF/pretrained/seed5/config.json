@@ -1,0 +1,29 @@
+{
+  "model": "RF",
+  "model_key": "rf",
+  "seed": 5,
+  "target": "log(k_H)",
+  "feature_representation": "51D RD feature matrix",
+  "feature_count": 51,
+  "split": {
+    "method": "target-quantile stratified",
+    "test_fraction": 0.2,
+    "shared_test_seed": 1
+  },
+  "preprocessing": {
+    "X": "StandardScaler fitted on training data",
+    "y": "RobustScaler fitted on training data"
+  },
+  "hyperparameter_search": {
+    "method": "RandomizedSearchCV",
+    "scoring": "neg_root_mean_squared_error",
+    "cv_folds": 10,
+    "n_iter": 40
+  },
+  "fitted_hyperparameters": {
+    "regressor__model__n_estimators": 1000,
+    "regressor__model__min_samples_leaf": 1,
+    "regressor__model__max_features": "sqrt",
+    "regressor__model__max_depth": 10
+  }
+}

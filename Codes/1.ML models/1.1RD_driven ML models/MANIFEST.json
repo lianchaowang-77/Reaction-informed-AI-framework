@@ -1,0 +1,1002 @@
+{
+  "release": "RD-driven hydrolysis-rate ML models",
+  "version": "1.0.0",
+  "models": [
+    "DNN",
+    "Ridge",
+    "Lasso",
+    "SVR",
+    "LGBM",
+    "XGB",
+    "RF",
+    "ET"
+  ],
+  "members_per_model": 5,
+  "files": [
+    {
+      "path": "DNN/model_config.json",
+      "sha256": "437b9ddd449561093d7ed5c60025e93ec5b5d941a36e8ddd7489f2d8a57cb2ee",
+      "bytes": 450
+    },
+    {
+      "path": "DNN/predict.py",
+      "sha256": "8da94c800e659c6c7ed200caf6da1abba6c38b626307be1f842ebe23fe6a99c4",
+      "bytes": 292
+    },
+    {
+      "path": "DNN/pretrained/seed1/DNN3.pt",
+      "sha256": "1bc453153101d814565f528520805263516408bd846a2d32288f5dc6996a2ace",
+      "bytes": 73477
+    },
+    {
+      "path": "DNN/pretrained/seed1/Xdesc_scaler.pkl",
+      "sha256": "34898dd6ed8e51bea5313aae84f2ab0836f01173bd497b4396568862b4096cf1",
+      "bytes": 1683
+    },
+    {
+      "path": "DNN/pretrained/seed1/Yscaler.pkl",
+      "sha256": "015070bf8aee2bd50d093ab4258f50e5efd561b14fc1bad4f10fbf5815d201ea",
+      "bytes": 440
+    },
+    {
+      "path": "DNN/pretrained/seed1/config.json",
+      "sha256": "fddc9aac65bc328d24694c09de298450d11e7a27d70e1b9d3d32bd2c047b8528",
+      "bytes": 631
+    },
+    {
+      "path": "DNN/pretrained/seed2/DNN3.pt",
+      "sha256": "d57a3f71aef03f2a07d59562e309f76385c0932c3e5b86830f1dbfa42792b03c",
+      "bytes": 73477
+    },
+    {
+      "path": "DNN/pretrained/seed2/Xdesc_scaler.pkl",
+      "sha256": "34898dd6ed8e51bea5313aae84f2ab0836f01173bd497b4396568862b4096cf1",
+      "bytes": 1683
+    },
+    {
+      "path": "DNN/pretrained/seed2/Yscaler.pkl",
+      "sha256": "015070bf8aee2bd50d093ab4258f50e5efd561b14fc1bad4f10fbf5815d201ea",
+      "bytes": 440
+    },
+    {
+      "path": "DNN/pretrained/seed2/config.json",
+      "sha256": "cd2e16a7980ad554eb07471f905aee078e2094ae4310c0dc731953850aff2add",
+      "bytes": 631
+    },
+    {
+      "path": "DNN/pretrained/seed3/DNN3.pt",
+      "sha256": "7b5fed8a355b7fbea97e7a5e110ffa201a3f20c0c1822de4d4a169164a2ed717",
+      "bytes": 73477
+    },
+    {
+      "path": "DNN/pretrained/seed3/Xdesc_scaler.pkl",
+      "sha256": "34898dd6ed8e51bea5313aae84f2ab0836f01173bd497b4396568862b4096cf1",
+      "bytes": 1683
+    },
+    {
+      "path": "DNN/pretrained/seed3/Yscaler.pkl",
+      "sha256": "015070bf8aee2bd50d093ab4258f50e5efd561b14fc1bad4f10fbf5815d201ea",
+      "bytes": 440
+    },
+    {
+      "path": "DNN/pretrained/seed3/config.json",
+      "sha256": "da923c552dab3fcb0050c19d9b698dadaa81c44662973d0dc1eb13e2db67197d",
+      "bytes": 631
+    },
+    {
+      "path": "DNN/pretrained/seed4/DNN3.pt",
+      "sha256": "9196c0319c9c21639358bb52e1f84113617e32ad04a3c894fde815d85f71043b",
+      "bytes": 73477
+    },
+    {
+      "path": "DNN/pretrained/seed4/Xdesc_scaler.pkl",
+      "sha256": "34898dd6ed8e51bea5313aae84f2ab0836f01173bd497b4396568862b4096cf1",
+      "bytes": 1683
+    },
+    {
+      "path": "DNN/pretrained/seed4/Yscaler.pkl",
+      "sha256": "015070bf8aee2bd50d093ab4258f50e5efd561b14fc1bad4f10fbf5815d201ea",
+      "bytes": 440
+    },
+    {
+      "path": "DNN/pretrained/seed4/config.json",
+      "sha256": "5c4df018202ee8bc91b3a54c23963f635e172cf6018411536f30237f003d8f79",
+      "bytes": 631
+    },
+    {
+      "path": "DNN/pretrained/seed5/DNN3.pt",
+      "sha256": "05a559fd51d42c399d39ad25614281c6e58ebbb0af51d2d2d96a3e6e8fafebc7",
+      "bytes": 73477
+    },
+    {
+      "path": "DNN/pretrained/seed5/Xdesc_scaler.pkl",
+      "sha256": "34898dd6ed8e51bea5313aae84f2ab0836f01173bd497b4396568862b4096cf1",
+      "bytes": 1683
+    },
+    {
+      "path": "DNN/pretrained/seed5/Yscaler.pkl",
+      "sha256": "015070bf8aee2bd50d093ab4258f50e5efd561b14fc1bad4f10fbf5815d201ea",
+      "bytes": 440
+    },
+    {
+      "path": "DNN/pretrained/seed5/config.json",
+      "sha256": "da7b9ba5ef87c2c2f13a3ae6c7db7259ff237dfe50202b4d6932d121558a968b",
+      "bytes": 631
+    },
+    {
+      "path": "DNN/train.py",
+      "sha256": "1fa9cc24e0328f35f7c594e33070d449b2851649d0ca87d9647316f3777a5d6a",
+      "bytes": 291
+    },
+    {
+      "path": "ET/model_config.json",
+      "sha256": "99d43c407e6a628bbe24f39e61a9176949ea7276a7c349aa3dfdd3c316ab2d4b",
+      "bytes": 663
+    },
+    {
+      "path": "ET/predict.py",
+      "sha256": "8f8a587e3dc112b5f9c815f102c8c54bd340bee22654f9b70805b4e70977b68f",
+      "bytes": 291
+    },
+    {
+      "path": "ET/pretrained/seed1/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "ET/pretrained/seed1/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "ET/pretrained/seed1/config.json",
+      "sha256": "afc826d416311433d06d2918940ca390497db706dc4cfcceecb3982f449acb28",
+      "bytes": 779
+    },
+    {
+      "path": "ET/pretrained/seed1/model.pkl",
+      "sha256": "5672a8eedc5a027e973b440ec6d60f1a2ac50a1bcc999ecf411fd0688c4eb25e",
+      "bytes": 10707721
+    },
+    {
+      "path": "ET/pretrained/seed2/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "ET/pretrained/seed2/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "ET/pretrained/seed2/config.json",
+      "sha256": "04db6f1a9814bf17ace667ccf94d8c27bfafea3dc97d48c101119b587cfc587a",
+      "bytes": 777
+    },
+    {
+      "path": "ET/pretrained/seed2/model.pkl",
+      "sha256": "2811ebb2265647c726fa374075893a9c81f7bc1561a8f62d4fb5a63ccda263f9",
+      "bytes": 10704697
+    },
+    {
+      "path": "ET/pretrained/seed3/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "ET/pretrained/seed3/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "ET/pretrained/seed3/config.json",
+      "sha256": "c71f327309deff23166d4020153eb4520ea65793d95e6b1a5e0e6e586d7c5c47",
+      "bytes": 780
+    },
+    {
+      "path": "ET/pretrained/seed3/model.pkl",
+      "sha256": "bfbcb211da3af5ecf8897844c877b2492265855584faeb9cab61dc0da0e4c673",
+      "bytes": 10699209
+    },
+    {
+      "path": "ET/pretrained/seed4/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "ET/pretrained/seed4/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "ET/pretrained/seed4/config.json",
+      "sha256": "5648f5c54c07818a95637e82ab1750e10dc5979c0ff1009e4cd21698d54f290f",
+      "bytes": 783
+    },
+    {
+      "path": "ET/pretrained/seed4/model.pkl",
+      "sha256": "0eb710c875a52ddb73c9be95ef3d3de37bd9d85c861c7e20cd70807dfa85325f",
+      "bytes": 21395721
+    },
+    {
+      "path": "ET/pretrained/seed5/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "ET/pretrained/seed5/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "ET/pretrained/seed5/config.json",
+      "sha256": "0e35b2ba6ac9a6f37f94f2dad2f246d0aa147272a2f485f8c360eb5990e5df2d",
+      "bytes": 778
+    },
+    {
+      "path": "ET/pretrained/seed5/model.pkl",
+      "sha256": "a4b4a864e679898d6faa379bc2a984e742244e81acc2a9208707fc50efd0bfcb",
+      "bytes": 15854617
+    },
+    {
+      "path": "ET/train.py",
+      "sha256": "1dfb02c184042217302b7060c42b506f4722d5093a1c13cfd2fa357b877af8e1",
+      "bytes": 290
+    },
+    {
+      "path": "LGBM/model_config.json",
+      "sha256": "e5f550097653a38990a9783bbfdc629215eb134020ec69f3fc78580af40f97a1",
+      "bytes": 757
+    },
+    {
+      "path": "LGBM/predict.py",
+      "sha256": "455188715c75b25c0c1568cde76fc0d8646a5df92b82c3c6adf6024b2627c7a4",
+      "bytes": 293
+    },
+    {
+      "path": "LGBM/pretrained/seed1/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "LGBM/pretrained/seed1/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "LGBM/pretrained/seed1/config.json",
+      "sha256": "52ed484e9f0d09a7a50372f9eb6abf5096a795640bf13e4ec7b62c8458adb8ab",
+      "bytes": 873
+    },
+    {
+      "path": "LGBM/pretrained/seed1/model.pkl",
+      "sha256": "2777cf79f2017d93dd346ce42dc3ea5cd835cd10a5af45613319f4864ac168ce",
+      "bytes": 1366594
+    },
+    {
+      "path": "LGBM/pretrained/seed2/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "LGBM/pretrained/seed2/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "LGBM/pretrained/seed2/config.json",
+      "sha256": "e04f5afcaa875c674988fc7f0fdfd59294b83b0e01654fee6610f00dafb22c37",
+      "bytes": 872
+    },
+    {
+      "path": "LGBM/pretrained/seed2/model.pkl",
+      "sha256": "c3caf73880f2f2be0e4286f45fcfc7d96a6f4b77e11395837890895d9b28dde2",
+      "bytes": 2808907
+    },
+    {
+      "path": "LGBM/pretrained/seed3/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "LGBM/pretrained/seed3/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "LGBM/pretrained/seed3/config.json",
+      "sha256": "5d6db6d98c99a776ee85c2c6f82ee7adadc02cdb991bbdcc788ef9a929720d6b",
+      "bytes": 872
+    },
+    {
+      "path": "LGBM/pretrained/seed3/model.pkl",
+      "sha256": "003fe03595ad6582cfec82695aecfecabee61e144f570239cf45b17e86680fd1",
+      "bytes": 1365665
+    },
+    {
+      "path": "LGBM/pretrained/seed4/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "LGBM/pretrained/seed4/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "LGBM/pretrained/seed4/config.json",
+      "sha256": "1fda60bebc565c0f38dd61dd9695e4b4d6276fac28c841c0999a5bd51d0920ac",
+      "bytes": 872
+    },
+    {
+      "path": "LGBM/pretrained/seed4/model.pkl",
+      "sha256": "5c71f5049d30be25e7bc6a73b5accc653f37fe8061d38ebd29761c0bc035b595",
+      "bytes": 2826076
+    },
+    {
+      "path": "LGBM/pretrained/seed5/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "LGBM/pretrained/seed5/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "LGBM/pretrained/seed5/config.json",
+      "sha256": "63dcb127c18142701050ab3f23cb5d57e1e554d17a2c1979db02d08e76485300",
+      "bytes": 872
+    },
+    {
+      "path": "LGBM/pretrained/seed5/model.pkl",
+      "sha256": "00cd1d87292f479f0224597452c51594e5c110ab0e51a4b7cb5f59d87e82f51a",
+      "bytes": 1362572
+    },
+    {
+      "path": "LGBM/train.py",
+      "sha256": "db3f4bf5ef96a228d8e5b8ba11c4d70996d139070b2da14a740c856da9512cdd",
+      "bytes": 292
+    },
+    {
+      "path": "Lasso/model_config.json",
+      "sha256": "6220782be770fffa22a93f1295a547e30e33eca7a7300c43ced93b1e5d97d385",
+      "bytes": 531
+    },
+    {
+      "path": "Lasso/predict.py",
+      "sha256": "5b59fd1441a4b45bece627c1da6d7f4f79602277d4b8bf5828a4768d21f4c9da",
+      "bytes": 294
+    },
+    {
+      "path": "Lasso/pretrained/seed1/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "Lasso/pretrained/seed1/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "Lasso/pretrained/seed1/config.json",
+      "sha256": "b6e9d355193544d344e575f8ce8727d2b6065751a2a7630d05442858709c8e84",
+      "bytes": 647
+    },
+    {
+      "path": "Lasso/pretrained/seed1/model.pkl",
+      "sha256": "f0202d5f0377341b8d609a812b4d998696e0fa31ebda86ba1f8f7645feadf7af",
+      "bytes": 3179
+    },
+    {
+      "path": "Lasso/pretrained/seed2/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "Lasso/pretrained/seed2/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "Lasso/pretrained/seed2/config.json",
+      "sha256": "02b821f6dfee23ada3882ecf11bb3986100f281c73e1c591b673f90e416e8091",
+      "bytes": 647
+    },
+    {
+      "path": "Lasso/pretrained/seed2/model.pkl",
+      "sha256": "7f45a51e8cb191d826a5ad71a2c080a3db4b28c3208f94bb28e86b121f53ba1c",
+      "bytes": 3179
+    },
+    {
+      "path": "Lasso/pretrained/seed3/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "Lasso/pretrained/seed3/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "Lasso/pretrained/seed3/config.json",
+      "sha256": "f66d2b839a5c595191da1c8e14d2e77e162bd230addeec1b602293838fc11614",
+      "bytes": 648
+    },
+    {
+      "path": "Lasso/pretrained/seed3/model.pkl",
+      "sha256": "e67059c71548c250c45a8078ffa67602743257faf60f55b77f72b2a5e291cc22",
+      "bytes": 3179
+    },
+    {
+      "path": "Lasso/pretrained/seed4/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "Lasso/pretrained/seed4/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "Lasso/pretrained/seed4/config.json",
+      "sha256": "00867630d0697e733f5463904dc1f15e31e9087aea244dc8155c560ca639cbe5",
+      "bytes": 647
+    },
+    {
+      "path": "Lasso/pretrained/seed4/model.pkl",
+      "sha256": "bfdd91641acbe123f523a7317eeb05e156b5deae1a94cc2e1f89fe67a74fd53d",
+      "bytes": 3179
+    },
+    {
+      "path": "Lasso/pretrained/seed5/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "Lasso/pretrained/seed5/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "Lasso/pretrained/seed5/config.json",
+      "sha256": "56833dccc1683733aaca3c7b8fb1ce90bfac1846ad55019cf1d09281c6836a98",
+      "bytes": 648
+    },
+    {
+      "path": "Lasso/pretrained/seed5/model.pkl",
+      "sha256": "49a03ddebe438d8eeb6eb7142aec9daec0b603b58fe80f74553ee4013d81ddb9",
+      "bytes": 3179
+    },
+    {
+      "path": "Lasso/train.py",
+      "sha256": "c86d90492bdb7d5454c826000d3479625258f3cd34b866ac5304f1af9b4e4253",
+      "bytes": 293
+    },
+    {
+      "path": "README.md",
+      "sha256": "d3f092ae0ba69c0435b9c72180219a6a314cfede4e209d64375e7f8e62c812fb",
+      "bytes": 3717
+    },
+    {
+      "path": "RF/model_config.json",
+      "sha256": "1237042e69405450874ba8b067ccb84663c2c0caea190af09894fdc66b7ab9f9",
+      "bytes": 666
+    },
+    {
+      "path": "RF/predict.py",
+      "sha256": "4c8da559c7c80da96926cf51d17ee6e5a7910bf44999361fe8041798e687b4ee",
+      "bytes": 291
+    },
+    {
+      "path": "RF/pretrained/seed1/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "RF/pretrained/seed1/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "RF/pretrained/seed1/config.json",
+      "sha256": "854ee103bcc7d0b3f3792515cf31b8b9f184cced7f7f0892a66771ca1f0563e3",
+      "bytes": 782
+    },
+    {
+      "path": "RF/pretrained/seed1/model.pkl",
+      "sha256": "e39ec247b63efd664283942cbebad29e387cc90669f137f09b2932c3bdee5c28",
+      "bytes": 6830297
+    },
+    {
+      "path": "RF/pretrained/seed2/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "RF/pretrained/seed2/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "RF/pretrained/seed2/config.json",
+      "sha256": "1371cb1442d80594c05f1f58ac06d2b296f2de2e5264b37e7047e5300a4b2747",
+      "bytes": 779
+    },
+    {
+      "path": "RF/pretrained/seed2/model.pkl",
+      "sha256": "3a71320737e5e01aca20e40a6ce3a2fa8c8cb70759b69b0b2c6e75cad112a2b1",
+      "bytes": 2726953
+    },
+    {
+      "path": "RF/pretrained/seed3/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "RF/pretrained/seed3/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "RF/pretrained/seed3/config.json",
+      "sha256": "74a33c49b637ff77caee0c9a775683ce5da2c2e746793827792e89cd1c3362e5",
+      "bytes": 780
+    },
+    {
+      "path": "RF/pretrained/seed3/model.pkl",
+      "sha256": "b68fa63c5c145ea2cfad640481865509796b57cd592a226d7c5e77e731f55485",
+      "bytes": 5804217
+    },
+    {
+      "path": "RF/pretrained/seed4/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "RF/pretrained/seed4/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "RF/pretrained/seed4/config.json",
+      "sha256": "6d9f2096dccfb816a69717767b0a4df0599b187abe2dacf0bf364c9bca6144d2",
+      "bytes": 782
+    },
+    {
+      "path": "RF/pretrained/seed4/model.pkl",
+      "sha256": "acecf2dc1737cfce9f74a74692c0c83e42f019be63b550d1747ef27f18fb6773",
+      "bytes": 6820793
+    },
+    {
+      "path": "RF/pretrained/seed5/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "RF/pretrained/seed5/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "RF/pretrained/seed5/config.json",
+      "sha256": "66b4cfdff4aef36cc76ae412ea9054236e0f248bf8f6f9b4fd6d703b4c16d258",
+      "bytes": 781
+    },
+    {
+      "path": "RF/pretrained/seed5/model.pkl",
+      "sha256": "dde62e68b05adc36f9963ded844815aaf82333321664619a39350ada453cf8ff",
+      "bytes": 11583561
+    },
+    {
+      "path": "RF/train.py",
+      "sha256": "c4beb752c398737a5fbfe1d1047b2ac31f55b8efac34f4fac72c1664d9e8ffe4",
+      "bytes": 290
+    },
+    {
+      "path": "Ridge/model_config.json",
+      "sha256": "32d38a4e6c0b91b5305fb169223acafc9d033f37e6286a296a98b0b756ab299b",
+      "bytes": 531
+    },
+    {
+      "path": "Ridge/predict.py",
+      "sha256": "9893a0fac548d9b1707275e7218007d7042d433a475f816c5867a34d605451d6",
+      "bytes": 294
+    },
+    {
+      "path": "Ridge/pretrained/seed1/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "Ridge/pretrained/seed1/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "Ridge/pretrained/seed1/config.json",
+      "sha256": "e2ae626e1929811a4d3d906b802f492f25059a63f76968af4ec3a20fbe9a8998",
+      "bytes": 647
+    },
+    {
+      "path": "Ridge/pretrained/seed1/model.pkl",
+      "sha256": "971a3996147aed63780533e3cef4ae6179a09b57a91e2de4b63b8a793c33fd8e",
+      "bytes": 3072
+    },
+    {
+      "path": "Ridge/pretrained/seed2/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "Ridge/pretrained/seed2/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "Ridge/pretrained/seed2/config.json",
+      "sha256": "5689b39a985035095f4c8e9fe629120393eb9bc245ddde36cb6e0e5af09c328f",
+      "bytes": 646
+    },
+    {
+      "path": "Ridge/pretrained/seed2/model.pkl",
+      "sha256": "08deab789727dff4434a4a6c06a2aff8bfa23de493a41e0a19f49172fe9aba2a",
+      "bytes": 3072
+    },
+    {
+      "path": "Ridge/pretrained/seed3/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "Ridge/pretrained/seed3/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "Ridge/pretrained/seed3/config.json",
+      "sha256": "2e62df8a50055a5008e0c0844ac054b5da17b0723058c08f18acb719511aed63",
+      "bytes": 646
+    },
+    {
+      "path": "Ridge/pretrained/seed3/model.pkl",
+      "sha256": "b25c50981e947ad926c645998c42b905cb612bb3192524d542af4717fdac1301",
+      "bytes": 3072
+    },
+    {
+      "path": "Ridge/pretrained/seed4/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "Ridge/pretrained/seed4/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "Ridge/pretrained/seed4/config.json",
+      "sha256": "0792b8f37c074b56c438d80701d3041a1c8205f75a68710b9ab796288393a209",
+      "bytes": 647
+    },
+    {
+      "path": "Ridge/pretrained/seed4/model.pkl",
+      "sha256": "341a142a102e92ebb7980b0a7eea6446be265b5cca222029d87efc871cdc861e",
+      "bytes": 3072
+    },
+    {
+      "path": "Ridge/pretrained/seed5/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "Ridge/pretrained/seed5/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "Ridge/pretrained/seed5/config.json",
+      "sha256": "3eeb22d7c5dac09df9787d2af7ea1ca0c08e34065739ab028fd4cc0425e15b01",
+      "bytes": 646
+    },
+    {
+      "path": "Ridge/pretrained/seed5/model.pkl",
+      "sha256": "8935ddff45b880028d25d0293cf3f8a252d3e3aa97dca5e0ecc67fcd9ffab38d",
+      "bytes": 3072
+    },
+    {
+      "path": "Ridge/train.py",
+      "sha256": "16b895d9f40ec3f532e834ab2ab2f4cf8637cb259e52e93224ee2e2dd56fc062",
+      "bytes": 293
+    },
+    {
+      "path": "SVR/model_config.json",
+      "sha256": "bca78bfb90c1f35fa2dce8ee01585a14def928ca494e2ab1c2a08df0c3856a47",
+      "bytes": 599
+    },
+    {
+      "path": "SVR/predict.py",
+      "sha256": "198f4fa01172861c0b8bc3e25920e450f13a0966bdbba186fef4d4da393d795f",
+      "bytes": 292
+    },
+    {
+      "path": "SVR/pretrained/seed1/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "SVR/pretrained/seed1/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "SVR/pretrained/seed1/config.json",
+      "sha256": "a75998d74654587a085e4f7b3b5150610b5ba4a9f14513e7ab8041b27904f265",
+      "bytes": 715
+    },
+    {
+      "path": "SVR/pretrained/seed1/model.pkl",
+      "sha256": "39b15b2687dc7d2fbadc58384bfc3383973442c451f0f84574df66ba6c49cb66",
+      "bytes": 62349
+    },
+    {
+      "path": "SVR/pretrained/seed2/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "SVR/pretrained/seed2/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "SVR/pretrained/seed2/config.json",
+      "sha256": "773404882f2a2a3dee5a316d5c4eff398a78e5cad02be76b4aece7dc27027aac",
+      "bytes": 716
+    },
+    {
+      "path": "SVR/pretrained/seed2/model.pkl",
+      "sha256": "769a3a0935aea6d6b8062b2c5541d06842b3b44be0ea4cbee058db4a98bb5eb1",
+      "bytes": 62757
+    },
+    {
+      "path": "SVR/pretrained/seed3/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "SVR/pretrained/seed3/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "SVR/pretrained/seed3/config.json",
+      "sha256": "cc7541aeb12d2c68a6991915c8f324006696c675d8ecaee2ac6bf2fddf319216",
+      "bytes": 716
+    },
+    {
+      "path": "SVR/pretrained/seed3/model.pkl",
+      "sha256": "769a3a0935aea6d6b8062b2c5541d06842b3b44be0ea4cbee058db4a98bb5eb1",
+      "bytes": 62757
+    },
+    {
+      "path": "SVR/pretrained/seed4/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "SVR/pretrained/seed4/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "SVR/pretrained/seed4/config.json",
+      "sha256": "39faa9ffc51857fb1ed5271883a5cd145c94b0193194f0c13b4aee200bece1aa",
+      "bytes": 716
+    },
+    {
+      "path": "SVR/pretrained/seed4/model.pkl",
+      "sha256": "769a3a0935aea6d6b8062b2c5541d06842b3b44be0ea4cbee058db4a98bb5eb1",
+      "bytes": 62757
+    },
+    {
+      "path": "SVR/pretrained/seed5/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "SVR/pretrained/seed5/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "SVR/pretrained/seed5/config.json",
+      "sha256": "0dd8a69ed833ddee342b94b227253a9ff1fe0ae6b167f91e802d16da669ea49f",
+      "bytes": 715
+    },
+    {
+      "path": "SVR/pretrained/seed5/model.pkl",
+      "sha256": "39b15b2687dc7d2fbadc58384bfc3383973442c451f0f84574df66ba6c49cb66",
+      "bytes": 62349
+    },
+    {
+      "path": "SVR/train.py",
+      "sha256": "dd110867fca67586d116b66e6d3612bb5294744c12d151fc79bd0b9716d8ecdd",
+      "bytes": 291
+    },
+    {
+      "path": "XGB/model_config.json",
+      "sha256": "40ffda43e44fed9d3bdf48671be5a97ebc7f05c7fa7ffff76c7a4a4bc9fa6f8f",
+      "bytes": 752
+    },
+    {
+      "path": "XGB/predict.py",
+      "sha256": "83ec716e333a9b12c96898dde1f911a4d970a08c42b5b41ec3d6bc7d775b0c29",
+      "bytes": 292
+    },
+    {
+      "path": "XGB/pretrained/seed1/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "XGB/pretrained/seed1/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "XGB/pretrained/seed1/config.json",
+      "sha256": "97a27ec8eaad1354d1c7ba10124105a0974b0a5e7c8c9e26a05a570cabdb74e0",
+      "bytes": 868
+    },
+    {
+      "path": "XGB/pretrained/seed1/model.pkl",
+      "sha256": "f5a04db90a124d484968bb21562bdce5acc13d0bbbb906d329c00eb0117f5c75",
+      "bytes": 709304
+    },
+    {
+      "path": "XGB/pretrained/seed2/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "XGB/pretrained/seed2/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "XGB/pretrained/seed2/config.json",
+      "sha256": "37b4973e92b489d8d87d7acc8a173f0dface57c781f67b7314b80b3274e4a3ed",
+      "bytes": 867
+    },
+    {
+      "path": "XGB/pretrained/seed2/model.pkl",
+      "sha256": "f28fce111f86025165dc288444ed9bf5762fe6d6ca8a335c06c9246e682e8cd8",
+      "bytes": 801720
+    },
+    {
+      "path": "XGB/pretrained/seed3/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "XGB/pretrained/seed3/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "XGB/pretrained/seed3/config.json",
+      "sha256": "110728f6d17ac0ca849f14a06fabcf4e086c196b788c0d785ee6d76ba3a39641",
+      "bytes": 867
+    },
+    {
+      "path": "XGB/pretrained/seed3/model.pkl",
+      "sha256": "c69326df242301b2b3d0604c982ecce2e2a16a59f318e93a0e8d12ecc917afa9",
+      "bytes": 912574
+    },
+    {
+      "path": "XGB/pretrained/seed4/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "XGB/pretrained/seed4/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "XGB/pretrained/seed4/config.json",
+      "sha256": "00ff40dba0003bc206500ff918eaa99b92a7abe33461cb87ca437f35d9593564",
+      "bytes": 867
+    },
+    {
+      "path": "XGB/pretrained/seed4/model.pkl",
+      "sha256": "761aed9cab799d7544f90078be99ff6cb4a5e2a5bdeb4f89176353bf0dce47a0",
+      "bytes": 840185
+    },
+    {
+      "path": "XGB/pretrained/seed5/Xdesc_scaler.pkl",
+      "sha256": "fdab00ac3d210eb4a7d69d6aff82516d1c97be3c10f2126674159da4b14939a9",
+      "bytes": 1823
+    },
+    {
+      "path": "XGB/pretrained/seed5/Yscaler.pkl",
+      "sha256": "7d3dd6322748ef5310716d3521ae9dd68e6916a95f8fcd969e966bb5a62f5a04",
+      "bytes": 511
+    },
+    {
+      "path": "XGB/pretrained/seed5/config.json",
+      "sha256": "b4bc63a1d635be81c9ad469eecf590a5ccd1c0a77a6ea0df8ea97b66c07330e9",
+      "bytes": 868
+    },
+    {
+      "path": "XGB/pretrained/seed5/model.pkl",
+      "sha256": "aea13bec7c4c557a7047ad1d5c2d08ea82e4b80891319f5cdd39315b491a176b",
+      "bytes": 991216
+    },
+    {
+      "path": "XGB/train.py",
+      "sha256": "6f1826734b946e9e3b34aa6df5b227c61cc03ab0c814d8e94d9735eac335233e",
+      "bytes": 291
+    },
+    {
+      "path": "rdml/__init__.py",
+      "sha256": "be8fbf8b50f3a76a531686e802f6add38f7fdf3f9b9e2f7aa27a3f2b55c80120",
+      "bytes": 143
+    },
+    {
+      "path": "rdml/data.py",
+      "sha256": "a2631d179358380ef5c5cb38037003bc3e8270665ef4cfe9399f68b438de8a3f",
+      "bytes": 5875
+    },
+    {
+      "path": "rdml/dnn.py",
+      "sha256": "47569f0970cf763a0c562f805085acd7e80277f785e4f1d167b240b6066618be",
+      "bytes": 1174
+    },
+    {
+      "path": "rdml/inference.py",
+      "sha256": "bc84dfeafcba6471cd8483bdb6f6b0888ad11a5ce72d313014acc6c8aa26b12f",
+      "bytes": 5127
+    },
+    {
+      "path": "rdml/registry.py",
+      "sha256": "4adf37cf004ee185afaa03fb4c111ed04f8b10bbd772470262f34c78a7b1f7e4",
+      "bytes": 4283
+    },
+    {
+      "path": "rdml/training.py",
+      "sha256": "a83713d545af90936f3b0d2bdff5a2fe818ebea09f1e399f1aa4deb2e4944d06",
+      "bytes": 8280
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "027ca56fc0ed3ed59c696100f15cb0974c0edc7921fff5e427905bc97399f6da",
+      "bytes": 112
+    },
+    {
+      "path": "tests/test_data_contract.py",
+      "sha256": "353a16d421da7e9203e5e227b735181d7957b83cf74893ea31e9c27ec8f28f1d",
+      "bytes": 1426
+    },
+    {
+      "path": "tests/test_inference_api.py",
+      "sha256": "e0e13c7f4ec5c0ee8a4d54c3f6e10ec44b9a45dfbaf62451bf2b0d464946f6fd",
+      "bytes": 3255
+    },
+    {
+      "path": "tests/test_model_registry.py",
+      "sha256": "40cb82a2302c271d0008662fa0aa98b112517ab64db5991fa7616e12d7f03bc5",
+      "bytes": 2242
+    },
+    {
+      "path": "tests/test_prediction_parity.py",
+      "sha256": "0ae79bfee9a7d43681c32b0c6a94077b8c7ee0e076bc0531ac30974cce5062a5",
+      "bytes": 3316
+    },
+    {
+      "path": "tests/test_release_layout.py",
+      "sha256": "a53180143ec044916995bbae2d12133021cfa7da6f28fd4aa112f485a5d9df0c",
+      "bytes": 4076
+    }
+  ]
+}

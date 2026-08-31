@@ -1,0 +1,26 @@
+{
+  "model": "DNN",
+  "model_key": "dnn",
+  "seed": 2,
+  "target": "log(k_H)",
+  "feature_representation": "51D RD feature matrix",
+  "feature_count": 51,
+  "architecture": [
+    128,
+    64,
+    32,
+    16
+  ],
+  "activation": "ReLU",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss": "mean squared error",
+  "epochs_max": 300,
+  "early_stopping_patience": 30,
+  "validation_fraction": 0.1,
+  "preprocessing": {
+    "X": "StandardScaler fitted on training data",
+    "y": "RobustScaler fitted on training data"
+  },
+  "ensemble_aggregation": "arithmetic mean with population standard deviation"
+}

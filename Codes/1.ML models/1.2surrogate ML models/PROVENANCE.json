@@ -1,0 +1,198 @@
+{
+  "description": "Byte-level provenance for the eight source model folders adjacent to this release",
+  "artifacts": [
+    {
+      "target": "Cacetal-q(N)",
+      "filename": "electronic_model.keras",
+      "release_path": "Cacetal-q(N)/pretrained/electronic_model.keras",
+      "source_sha256": "6a88e8974804de888363f9b42ac28f8015e4438169a53a78a5cded3cae394202",
+      "release_sha256": "6a88e8974804de888363f9b42ac28f8015e4438169a53a78a5cded3cae394202",
+      "bytes": 8306674
+    },
+    {
+      "target": "Cacetal-q(N)",
+      "filename": "Xdesc_scaler.pkl",
+      "release_path": "Cacetal-q(N)/pretrained/Xdesc_scaler.pkl",
+      "source_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "release_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "target": "Cacetal-q(N)",
+      "filename": "Y_scaler.pkl",
+      "release_path": "Cacetal-q(N)/pretrained/Y_scaler.pkl",
+      "source_sha256": "34a45a11b6c674d61f7e622719eab122af18f6b57b0409e139486d7cf3632c93",
+      "release_sha256": "34a45a11b6c674d61f7e622719eab122af18f6b57b0409e139486d7cf3632c93",
+      "bytes": 802
+    },
+    {
+      "target": "Cacetal-q(N+1)",
+      "filename": "electronic_model.keras",
+      "release_path": "Cacetal-q(N+1)/pretrained/electronic_model.keras",
+      "source_sha256": "0c5087b31c119e77c29f030eba01bfde916749ed49a7428fd3227b467212ca6b",
+      "release_sha256": "0c5087b31c119e77c29f030eba01bfde916749ed49a7428fd3227b467212ca6b",
+      "bytes": 8306681
+    },
+    {
+      "target": "Cacetal-q(N+1)",
+      "filename": "Xdesc_scaler.pkl",
+      "release_path": "Cacetal-q(N+1)/pretrained/Xdesc_scaler.pkl",
+      "source_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "release_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "target": "Cacetal-q(N+1)",
+      "filename": "Y_scaler.pkl",
+      "release_path": "Cacetal-q(N+1)/pretrained/Y_scaler.pkl",
+      "source_sha256": "eafbfa0d0dfe7a4d30e9b58882865a40d0c0a3de848d3bc8408012542fb24fa2",
+      "release_sha256": "eafbfa0d0dfe7a4d30e9b58882865a40d0c0a3de848d3bc8408012542fb24fa2",
+      "bytes": 802
+    },
+    {
+      "target": "Cacetal-s-",
+      "filename": "electronic_model.keras",
+      "release_path": "Cacetal-s-/pretrained/electronic_model.keras",
+      "source_sha256": "bd3b0ff71e136f7cccaac54fa1a2305b490dd12c6aa27e066da297773a16bcc2",
+      "release_sha256": "bd3b0ff71e136f7cccaac54fa1a2305b490dd12c6aa27e066da297773a16bcc2",
+      "bytes": 8306684
+    },
+    {
+      "target": "Cacetal-s-",
+      "filename": "Xdesc_scaler.pkl",
+      "release_path": "Cacetal-s-/pretrained/Xdesc_scaler.pkl",
+      "source_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "release_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "target": "Cacetal-s-",
+      "filename": "Y_scaler.pkl",
+      "release_path": "Cacetal-s-/pretrained/Y_scaler.pkl",
+      "source_sha256": "495f1408989233a8af76c63f9ebc4729ba6e64e9c87582a47a098b27fad76982",
+      "release_sha256": "495f1408989233a8af76c63f9ebc4729ba6e64e9c87582a47a098b27fad76982",
+      "bytes": 802
+    },
+    {
+      "target": "E_HOMO(N-1)",
+      "filename": "electronic_model.keras",
+      "release_path": "E_HOMO(N-1)/pretrained/electronic_model.keras",
+      "source_sha256": "d6da91e8d452ffb6756887bd5851228e1f9697535a5166b7ec3b7260a84d86b4",
+      "release_sha256": "d6da91e8d452ffb6756887bd5851228e1f9697535a5166b7ec3b7260a84d86b4",
+      "bytes": 8306687
+    },
+    {
+      "target": "E_HOMO(N-1)",
+      "filename": "Xdesc_scaler.pkl",
+      "release_path": "E_HOMO(N-1)/pretrained/Xdesc_scaler.pkl",
+      "source_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "release_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "target": "E_HOMO(N-1)",
+      "filename": "Y_scaler.pkl",
+      "release_path": "E_HOMO(N-1)/pretrained/Y_scaler.pkl",
+      "source_sha256": "4b3ca6d5bf70276086f6450618be003c6c0cd9552d5fdd4ed64614451e9c73ab",
+      "release_sha256": "4b3ca6d5bf70276086f6450618be003c6c0cd9552d5fdd4ed64614451e9c73ab",
+      "bytes": 802
+    },
+    {
+      "target": "VIP",
+      "filename": "electronic_model.keras",
+      "release_path": "VIP/pretrained/electronic_model.keras",
+      "source_sha256": "a0fe4258f93e4d924599e1168f352e45eb7a99bd2b819392096557e94f969ce6",
+      "release_sha256": "a0fe4258f93e4d924599e1168f352e45eb7a99bd2b819392096557e94f969ce6",
+      "bytes": 8306688
+    },
+    {
+      "target": "VIP",
+      "filename": "Xdesc_scaler.pkl",
+      "release_path": "VIP/pretrained/Xdesc_scaler.pkl",
+      "source_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "release_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "target": "VIP",
+      "filename": "Y_scaler.pkl",
+      "release_path": "VIP/pretrained/Y_scaler.pkl",
+      "source_sha256": "6c3d52691d2b4e8ea6a5369b018e1de99993638016e3e71b05397e04ec424f4d",
+      "release_sha256": "6c3d52691d2b4e8ea6a5369b018e1de99993638016e3e71b05397e04ec424f4d",
+      "bytes": 802
+    },
+    {
+      "target": "Overall_Average",
+      "filename": "electronic_model.keras",
+      "release_path": "Overall_Average/pretrained/electronic_model.keras",
+      "source_sha256": "3486aa6444c7a7bac72c8c91b76cd062132ba22935167e932e6c6e2cf390da88",
+      "release_sha256": "3486aa6444c7a7bac72c8c91b76cd062132ba22935167e932e6c6e2cf390da88",
+      "bytes": 8306689
+    },
+    {
+      "target": "Overall_Average",
+      "filename": "Xdesc_scaler.pkl",
+      "release_path": "Overall_Average/pretrained/Xdesc_scaler.pkl",
+      "source_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "release_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "target": "Overall_Average",
+      "filename": "Y_scaler.pkl",
+      "release_path": "Overall_Average/pretrained/Y_scaler.pkl",
+      "source_sha256": "f43d0b4fec0912fb369833a906551e0d74bc43dcdfdcd549653e547075a81188",
+      "release_sha256": "f43d0b4fec0912fb369833a906551e0d74bc43dcdfdcd549653e547075a81188",
+      "bytes": 802
+    },
+    {
+      "target": "Pos_Average",
+      "filename": "electronic_model.keras",
+      "release_path": "Pos_Average/pretrained/electronic_model.keras",
+      "source_sha256": "073006648425db5900628672a431035d66e3b0bdd595d43aaca77e8cc069524d",
+      "release_sha256": "073006648425db5900628672a431035d66e3b0bdd595d43aaca77e8cc069524d",
+      "bytes": 8306689
+    },
+    {
+      "target": "Pos_Average",
+      "filename": "Xdesc_scaler.pkl",
+      "release_path": "Pos_Average/pretrained/Xdesc_scaler.pkl",
+      "source_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "release_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "target": "Pos_Average",
+      "filename": "Y_scaler.pkl",
+      "release_path": "Pos_Average/pretrained/Y_scaler.pkl",
+      "source_sha256": "9d74327ab71f222f25008333d7e7ddfa17d8916f6187e42f556dc1436ad04db2",
+      "release_sha256": "9d74327ab71f222f25008333d7e7ddfa17d8916f6187e42f556dc1436ad04db2",
+      "bytes": 802
+    },
+    {
+      "target": "Polar_Area",
+      "filename": "electronic_model.keras",
+      "release_path": "Polar_Area/pretrained/electronic_model.keras",
+      "source_sha256": "7163b08cf87adbf050931783e3d47c58b38bdb1cae10dbf832779eb100d3286e",
+      "release_sha256": "7163b08cf87adbf050931783e3d47c58b38bdb1cae10dbf832779eb100d3286e",
+      "bytes": 8306689
+    },
+    {
+      "target": "Polar_Area",
+      "filename": "Xdesc_scaler.pkl",
+      "release_path": "Polar_Area/pretrained/Xdesc_scaler.pkl",
+      "source_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "release_sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "target": "Polar_Area",
+      "filename": "Y_scaler.pkl",
+      "release_path": "Polar_Area/pretrained/Y_scaler.pkl",
+      "source_sha256": "908325a697b8b4b7caff9808bc379affbb4ff5be1d016b3ac17d74f590817e40",
+      "release_sha256": "908325a697b8b4b7caff9808bc379affbb4ff5be1d016b3ac17d74f590817e40",
+      "bytes": 802
+    }
+  ],
+  "prediction_parity_test": "tests/test_source_parity.py"
+}

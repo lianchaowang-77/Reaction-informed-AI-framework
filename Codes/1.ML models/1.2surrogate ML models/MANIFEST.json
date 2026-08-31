@@ -1,0 +1,376 @@
+{
+  "release": "Eight single-task DFT electronic-property surrogate models",
+  "version": "1.0.0",
+  "targets": [
+    "Cacetal-q(N)",
+    "Cacetal-q(N+1)",
+    "Cacetal-s-",
+    "E_HOMO(N-1)",
+    "VIP",
+    "Overall_Average",
+    "Pos_Average",
+    "Polar_Area"
+  ],
+  "files": [
+    {
+      "path": "Cacetal-q(N)/model_config.json",
+      "sha256": "aa6cc2394f3489a006e3c166214301d663f1e52cc5048481ad7464127d814a13",
+      "bytes": 1093
+    },
+    {
+      "path": "Cacetal-q(N)/predict.py",
+      "sha256": "eb4513ce87c9fcb4d061e499b9f6c7ea57a013a7df23d404cf4d69048d9369e5",
+      "bytes": 313
+    },
+    {
+      "path": "Cacetal-q(N)/pretrained/Xdesc_scaler.pkl",
+      "sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "path": "Cacetal-q(N)/pretrained/Y_scaler.pkl",
+      "sha256": "34a45a11b6c674d61f7e622719eab122af18f6b57b0409e139486d7cf3632c93",
+      "bytes": 802
+    },
+    {
+      "path": "Cacetal-q(N)/pretrained/config.json",
+      "sha256": "aa6cc2394f3489a006e3c166214301d663f1e52cc5048481ad7464127d814a13",
+      "bytes": 1093
+    },
+    {
+      "path": "Cacetal-q(N)/pretrained/electronic_model.keras",
+      "sha256": "6a88e8974804de888363f9b42ac28f8015e4438169a53a78a5cded3cae394202",
+      "bytes": 8306674
+    },
+    {
+      "path": "Cacetal-q(N)/train.py",
+      "sha256": "3a80c6368b868f221f73466bafcec4f0992c40e0393039b0c6365e620ba8f3a1",
+      "bytes": 312
+    },
+    {
+      "path": "Cacetal-q(N+1)/model_config.json",
+      "sha256": "ae0f3ee6c23672b9eabeabc973b0be9d477cbdfe42259c5266c242210af23911",
+      "bytes": 1095
+    },
+    {
+      "path": "Cacetal-q(N+1)/predict.py",
+      "sha256": "b3e06ecd1e7d44de15f0bd0b1cdb495fdf295cc29d027bdc43aa38b641861e87",
+      "bytes": 315
+    },
+    {
+      "path": "Cacetal-q(N+1)/pretrained/Xdesc_scaler.pkl",
+      "sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "path": "Cacetal-q(N+1)/pretrained/Y_scaler.pkl",
+      "sha256": "eafbfa0d0dfe7a4d30e9b58882865a40d0c0a3de848d3bc8408012542fb24fa2",
+      "bytes": 802
+    },
+    {
+      "path": "Cacetal-q(N+1)/pretrained/config.json",
+      "sha256": "ae0f3ee6c23672b9eabeabc973b0be9d477cbdfe42259c5266c242210af23911",
+      "bytes": 1095
+    },
+    {
+      "path": "Cacetal-q(N+1)/pretrained/electronic_model.keras",
+      "sha256": "0c5087b31c119e77c29f030eba01bfde916749ed49a7428fd3227b467212ca6b",
+      "bytes": 8306681
+    },
+    {
+      "path": "Cacetal-q(N+1)/train.py",
+      "sha256": "4ead25a23c28b905a71cf0f21b7c2b9ddac42f653abda068707061041e4ee8fc",
+      "bytes": 314
+    },
+    {
+      "path": "Cacetal-s-/model_config.json",
+      "sha256": "2265d3458e1ad1409a00273fe4de499d1cd3f64c40b38c5256c843c8123290a0",
+      "bytes": 1091
+    },
+    {
+      "path": "Cacetal-s-/predict.py",
+      "sha256": "036a846ea81423d30d4f47d49103d324e2acbf6c66ef88879cdce0af5e6c4a46",
+      "bytes": 311
+    },
+    {
+      "path": "Cacetal-s-/pretrained/Xdesc_scaler.pkl",
+      "sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "path": "Cacetal-s-/pretrained/Y_scaler.pkl",
+      "sha256": "495f1408989233a8af76c63f9ebc4729ba6e64e9c87582a47a098b27fad76982",
+      "bytes": 802
+    },
+    {
+      "path": "Cacetal-s-/pretrained/config.json",
+      "sha256": "2265d3458e1ad1409a00273fe4de499d1cd3f64c40b38c5256c843c8123290a0",
+      "bytes": 1091
+    },
+    {
+      "path": "Cacetal-s-/pretrained/electronic_model.keras",
+      "sha256": "bd3b0ff71e136f7cccaac54fa1a2305b490dd12c6aa27e066da297773a16bcc2",
+      "bytes": 8306684
+    },
+    {
+      "path": "Cacetal-s-/train.py",
+      "sha256": "e5112424ff041ee1841c6ef861cff0a6e885a48825add6afc77580311ee378dc",
+      "bytes": 310
+    },
+    {
+      "path": "E_HOMO(N-1)/model_config.json",
+      "sha256": "1fa892dfe6540a330fa364747783e8437bed3c28e3462b616e3dae9051ef8d8a",
+      "bytes": 1092
+    },
+    {
+      "path": "E_HOMO(N-1)/predict.py",
+      "sha256": "c54fa8da7b61acfbd00e5e5eee3f37dde4aca7d7bf619ff7bd34a588af46b054",
+      "bytes": 312
+    },
+    {
+      "path": "E_HOMO(N-1)/pretrained/Xdesc_scaler.pkl",
+      "sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "path": "E_HOMO(N-1)/pretrained/Y_scaler.pkl",
+      "sha256": "4b3ca6d5bf70276086f6450618be003c6c0cd9552d5fdd4ed64614451e9c73ab",
+      "bytes": 802
+    },
+    {
+      "path": "E_HOMO(N-1)/pretrained/config.json",
+      "sha256": "1fa892dfe6540a330fa364747783e8437bed3c28e3462b616e3dae9051ef8d8a",
+      "bytes": 1092
+    },
+    {
+      "path": "E_HOMO(N-1)/pretrained/electronic_model.keras",
+      "sha256": "d6da91e8d452ffb6756887bd5851228e1f9697535a5166b7ec3b7260a84d86b4",
+      "bytes": 8306687
+    },
+    {
+      "path": "E_HOMO(N-1)/train.py",
+      "sha256": "a8b439ac1a0fb409cd24d2f37c45e668abadc0dbb2586c9d7d8e5a10054d8803",
+      "bytes": 311
+    },
+    {
+      "path": "Overall_Average/model_config.json",
+      "sha256": "c73054cc1fd52e665c461668b781a21a8529308beebf7e15e4d0aca102051511",
+      "bytes": 1096
+    },
+    {
+      "path": "Overall_Average/predict.py",
+      "sha256": "087f0c18cedb5e9359e8308146c012aa527745ef841e7c037976aca2af9a4b46",
+      "bytes": 316
+    },
+    {
+      "path": "Overall_Average/pretrained/Xdesc_scaler.pkl",
+      "sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "path": "Overall_Average/pretrained/Y_scaler.pkl",
+      "sha256": "f43d0b4fec0912fb369833a906551e0d74bc43dcdfdcd549653e547075a81188",
+      "bytes": 802
+    },
+    {
+      "path": "Overall_Average/pretrained/config.json",
+      "sha256": "c73054cc1fd52e665c461668b781a21a8529308beebf7e15e4d0aca102051511",
+      "bytes": 1096
+    },
+    {
+      "path": "Overall_Average/pretrained/electronic_model.keras",
+      "sha256": "3486aa6444c7a7bac72c8c91b76cd062132ba22935167e932e6c6e2cf390da88",
+      "bytes": 8306689
+    },
+    {
+      "path": "Overall_Average/train.py",
+      "sha256": "5397112de359469df1d1561553562ed54b861a98bbef9d41c1b6af1c865a5d2d",
+      "bytes": 315
+    },
+    {
+      "path": "PROVENANCE.json",
+      "sha256": "3b5745e37fb0200f6e851d77d21a1a189bb48d31e44576c2949d285938922a99",
+      "bytes": 8801
+    },
+    {
+      "path": "Polar_Area/model_config.json",
+      "sha256": "6fa3c61d9db5ef1b00cb3eee45a639ccd8caed9447c6c630427d0370649f924d",
+      "bytes": 1091
+    },
+    {
+      "path": "Polar_Area/predict.py",
+      "sha256": "ab1bf359bdb38e8cb9f57763c9aca45b7dedc4b92de40be2c5155aea4fe08789",
+      "bytes": 311
+    },
+    {
+      "path": "Polar_Area/pretrained/Xdesc_scaler.pkl",
+      "sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "path": "Polar_Area/pretrained/Y_scaler.pkl",
+      "sha256": "908325a697b8b4b7caff9808bc379affbb4ff5be1d016b3ac17d74f590817e40",
+      "bytes": 802
+    },
+    {
+      "path": "Polar_Area/pretrained/config.json",
+      "sha256": "6fa3c61d9db5ef1b00cb3eee45a639ccd8caed9447c6c630427d0370649f924d",
+      "bytes": 1091
+    },
+    {
+      "path": "Polar_Area/pretrained/electronic_model.keras",
+      "sha256": "7163b08cf87adbf050931783e3d47c58b38bdb1cae10dbf832779eb100d3286e",
+      "bytes": 8306689
+    },
+    {
+      "path": "Polar_Area/train.py",
+      "sha256": "493fe5d5b24bec1a30d28a59be8564a1b5c8d6025141847d9eb323f1339d718e",
+      "bytes": 310
+    },
+    {
+      "path": "Pos_Average/model_config.json",
+      "sha256": "c8e5547396a6c199f265efda9abb0e0f3721ec21097d0c4dba9dba41bdf9fe18",
+      "bytes": 1092
+    },
+    {
+      "path": "Pos_Average/predict.py",
+      "sha256": "e5a8a8a5764eb1a6c2d95c099b815771fa829d4d77f0dd587c82fd9d039dbf47",
+      "bytes": 312
+    },
+    {
+      "path": "Pos_Average/pretrained/Xdesc_scaler.pkl",
+      "sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "path": "Pos_Average/pretrained/Y_scaler.pkl",
+      "sha256": "9d74327ab71f222f25008333d7e7ddfa17d8916f6187e42f556dc1436ad04db2",
+      "bytes": 802
+    },
+    {
+      "path": "Pos_Average/pretrained/config.json",
+      "sha256": "c8e5547396a6c199f265efda9abb0e0f3721ec21097d0c4dba9dba41bdf9fe18",
+      "bytes": 1092
+    },
+    {
+      "path": "Pos_Average/pretrained/electronic_model.keras",
+      "sha256": "073006648425db5900628672a431035d66e3b0bdd595d43aaca77e8cc069524d",
+      "bytes": 8306689
+    },
+    {
+      "path": "Pos_Average/train.py",
+      "sha256": "caed6346c97a1b0d508b2f1bc1fbf4814aa8394f36ae0a5b8110eb41f1638825",
+      "bytes": 311
+    },
+    {
+      "path": "README.md",
+      "sha256": "27b6f5bb69363c9504905ec50db63805bbf8df6adf16e43d664e2d34bf03fecb",
+      "bytes": 3327
+    },
+    {
+      "path": "VIP/model_config.json",
+      "sha256": "77c8e2db9fb61fdb1e02bddea8d087a57c8796aeb2dc8c0071ce0a2d8ac3bddb",
+      "bytes": 1084
+    },
+    {
+      "path": "VIP/predict.py",
+      "sha256": "a5dde91a72191709b36c9da72b7eed90f19eac64d8ad1da362a821dea3240481",
+      "bytes": 304
+    },
+    {
+      "path": "VIP/pretrained/Xdesc_scaler.pkl",
+      "sha256": "70ca0c9c7ad1d25ebec9c701b7dfa9d999bdd1a0d905484f98a416b206d038aa",
+      "bytes": 45
+    },
+    {
+      "path": "VIP/pretrained/Y_scaler.pkl",
+      "sha256": "6c3d52691d2b4e8ea6a5369b018e1de99993638016e3e71b05397e04ec424f4d",
+      "bytes": 802
+    },
+    {
+      "path": "VIP/pretrained/config.json",
+      "sha256": "77c8e2db9fb61fdb1e02bddea8d087a57c8796aeb2dc8c0071ce0a2d8ac3bddb",
+      "bytes": 1084
+    },
+    {
+      "path": "VIP/pretrained/electronic_model.keras",
+      "sha256": "a0fe4258f93e4d924599e1168f352e45eb7a99bd2b819392096557e94f969ce6",
+      "bytes": 8306688
+    },
+    {
+      "path": "VIP/train.py",
+      "sha256": "d69382862e5f0993256e237efd0b2df6d9739cefbff23a06af14dd88ca8959fd",
+      "bytes": 303
+    },
+    {
+      "path": "predict_all.py",
+      "sha256": "c15d1379958d307d0b975821b65a92953bf1de12ee9e650e23c7ff8e1e2b18b8",
+      "bytes": 95
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "c4391423b698cb3c7523419351a298bb2ee26e1e2cfc05b637912036128221f2",
+      "bytes": 87
+    },
+    {
+      "path": "suite_config.json",
+      "sha256": "0a54dcd79afccde914291ba6c7e1ab4b46b4524756b5a070e9d534a2af2b9ddc",
+      "bytes": 312
+    },
+    {
+      "path": "surrogate_core/__init__.py",
+      "sha256": "7a348614fb7aaea29f840e4212e29ab3df65d02cc8a1dc2011044422c6fa992c",
+      "bytes": 195
+    },
+    {
+      "path": "surrogate_core/constants.py",
+      "sha256": "25bec01cb6ecba0a75dfbbf523c05c66e526f4aac2b713e192952c4464dac070",
+      "bytes": 644
+    },
+    {
+      "path": "surrogate_core/fingerprint.py",
+      "sha256": "5da0f2c7e8a170de9e217a3f0de82ddbbdf17bab1222eeb69307b5e7024b0ef7",
+      "bytes": 1453
+    },
+    {
+      "path": "surrogate_core/inference.py",
+      "sha256": "92ab593ac4e8131aafa9488bfbcb17676cd99e3ef8fe0b636ef4e05ba6d774ab",
+      "bytes": 7234
+    },
+    {
+      "path": "surrogate_core/preprocessing.py",
+      "sha256": "078897a0efbf370e2e195129c022c13e19bce7d6c540f26e366b77430dbaea45",
+      "bytes": 1172
+    },
+    {
+      "path": "surrogate_core/training.py",
+      "sha256": "5212370665998dab0ebe60a0f63732e2b3a91ccb16e6c5efa2da8fb13e53e7ac",
+      "bytes": 11705
+    },
+    {
+      "path": "tests/test_core_api.py",
+      "sha256": "6a973e0dd37e04608d7ec9a4145564d003231bc63425ed4cc4f54d62bcd64160",
+      "bytes": 5167
+    },
+    {
+      "path": "tests/test_preprocessing_contract.py",
+      "sha256": "9fad54b927a2a2c4abf4fc5c69fb877af615848092c5ca2b682e3955ff6737c3",
+      "bytes": 744
+    },
+    {
+      "path": "tests/test_release_layout.py",
+      "sha256": "0a3eee20aeb116394178ea9245aa835c98652280fb137892eb9e7d4f2efd6f4f",
+      "bytes": 3121
+    },
+    {
+      "path": "tests/test_source_parity.py",
+      "sha256": "7174f5995fe9b7d1bb492533552fb191f9c1ec2e30c87d941e15ad44bef30484",
+      "bytes": 2939
+    },
+    {
+      "path": "train_all.py",
+      "sha256": "24539ba8dd5007333cd86c6321c512667775a1178996f82a348bfd9fa62baeca",
+      "bytes": 94
+    }
+  ]
+}

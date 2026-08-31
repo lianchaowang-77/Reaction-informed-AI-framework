@@ -1,0 +1,31 @@
+{
+  "model": "LGBM",
+  "model_key": "lgbm",
+  "seed": 2,
+  "target": "log(k_H)",
+  "feature_representation": "51D RD feature matrix",
+  "feature_count": 51,
+  "split": {
+    "method": "target-quantile stratified",
+    "test_fraction": 0.2,
+    "shared_test_seed": 1
+  },
+  "preprocessing": {
+    "X": "StandardScaler fitted on training data",
+    "y": "RobustScaler fitted on training data"
+  },
+  "hyperparameter_search": {
+    "method": "RandomizedSearchCV",
+    "scoring": "neg_root_mean_squared_error",
+    "cv_folds": 10,
+    "n_iter": 40
+  },
+  "fitted_hyperparameters": {
+    "regressor__model__subsample": 1.0,
+    "regressor__model__reg_lambda": 1.0,
+    "regressor__model__num_leaves": 63,
+    "regressor__model__min_child_samples": 10,
+    "regressor__model__learning_rate": 0.1,
+    "regressor__model__colsample_bytree": 0.6
+  }
+}

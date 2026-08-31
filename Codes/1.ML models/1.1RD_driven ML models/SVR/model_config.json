@@ -1,0 +1,21 @@
+{
+  "model": "SVR",
+  "model_key": "svr",
+  "target": "log(k_H)",
+  "feature_representation": "51D RD feature matrix",
+  "feature_count": 51,
+  "released_members": 5,
+  "x_scaler": "StandardScaler fitted on training data",
+  "y_scaler": "RobustScaler fitted on training data",
+  "hyperparameter_search": {
+    "method": "RandomizedSearchCV",
+    "scoring": "neg_root_mean_squared_error",
+    "cv_folds": 10,
+    "n_iter": 40
+  },
+  "example_fitted_hyperparameters": {
+    "regressor__model__gamma": 0.01,
+    "regressor__model__epsilon": 0.01,
+    "regressor__model__C": 10
+  }
+}

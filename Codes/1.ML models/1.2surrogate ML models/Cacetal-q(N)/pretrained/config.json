@@ -1,0 +1,44 @@
+{
+  "target": "Cacetal-q(N)",
+  "seed": 1,
+  "fingerprint": {
+    "type": "hashed_morgan_counts",
+    "radius": 2,
+    "n_bits": 1024,
+    "use_chirality": false
+  },
+  "feature_representation": "1024D hashed Morgan count fingerprint",
+  "x_scaler": "identity (Morgan count features are used directly)",
+  "y_scaler": "StandardScaler fitted on the training subset",
+  "model": {
+    "name": "DNN22_tuned",
+    "hidden_units": [
+      512,
+      256,
+      128
+    ],
+    "dropout": 0.15,
+    "l2": 0.0,
+    "learning_rate": 0.001,
+    "loss": "mean squared error",
+    "epochs_max": 300,
+    "batch_size": 64,
+    "early_stopping_patience": 25,
+    "reduce_lr_patience": 10,
+    "reduce_lr_factor": 0.5
+  },
+  "split": {
+    "method": "per-target stratified split",
+    "n_total": 1500,
+    "n_train": 1083,
+    "n_validation": 192,
+    "n_test": 225,
+    "validation_fraction_of_training_pool": 0.15,
+    "stratified_bins": 10
+  },
+  "artifact_format": {
+    "model": "Keras .keras",
+    "input_scaler": "pickle",
+    "target_scaler": "pickle"
+  }
+}
